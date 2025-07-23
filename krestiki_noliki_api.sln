@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "krestiki_noliki_api", "krestiki_noliki_api\krestiki_noliki_api.csproj", "{F828AD75-73E8-41BA-8AF4-2FE7E712A25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "krestiki_noliki_api.Tests", "krestiki_noliki_api.Tests\krestiki_noliki_api.Tests.csproj", "{43451433-E09A-4C9E-BC02-DA6E03A82337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F828AD75-73E8-41BA-8AF4-2FE7E712A25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F828AD75-73E8-41BA-8AF4-2FE7E712A25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F828AD75-73E8-41BA-8AF4-2FE7E712A25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F828AD75-73E8-41BA-8AF4-2FE7E712A25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43451433-E09A-4C9E-BC02-DA6E03A82337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43451433-E09A-4C9E-BC02-DA6E03A82337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43451433-E09A-4C9E-BC02-DA6E03A82337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43451433-E09A-4C9E-BC02-DA6E03A82337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B147350D-260D-4A0E-BA5D-573EDCFDCD5E}
+	EndGlobalSection
+EndGlobal

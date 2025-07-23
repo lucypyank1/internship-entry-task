@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "krestiki_noliki_api.Controllers.GameController",
+    "Method": "CreateGame",
+    "RelativePath": "games",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "krestiki_noliki_api.DTOs.GameCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "krestiki_noliki_api.Controllers.GameController",
+    "Method": "GetGame",
+    "RelativePath": "games/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "krestiki_noliki_api.Controllers.GameController",
+    "Method": "MakeMove",
+    "RelativePath": "games/{id}/moves",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "krestiki_noliki_api.DTOs.MoveRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
